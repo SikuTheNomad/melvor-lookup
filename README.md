@@ -8,7 +8,7 @@ It sits in the game's top bar, next to the logo, and looks like part of the game
 
 ## Install
 
-1. Download **Melvor Lookup.zip** from the [latest release](../../releases/latest).
+1. Download **Melvor.Lookup.zip** from the [latest release](../../releases/latest).
 2. Extract it and double-click **Melvor Lookup**.
 3. Open Melvor Idle 2. The **Lookup** tab is in the top bar.
 
