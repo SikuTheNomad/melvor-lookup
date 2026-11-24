@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/tabs.png" width="640" alt="Melvor Idle 2's top bar with the Lookup tab between Shop and Combat">
+  <img src="images/tabs.png" width="750" alt="Melvor Idle 2's top bar with the Trade and Lookup tabs between Shop and Combat">
 </p>
 
 <h1 align="center">Melvor Mods</h1>
@@ -9,6 +9,7 @@
   <b>Lookup</b> finds any item and every way to get it.
   <b>Timers</b> puts your farms, animals and bonfire on your phone.
   <b>Hide Version</b> hides the version number at the top of the screen.
+  <b>Trade</b> lets you gift, ask for and trade items with your Steam friends.
 </p>
 
 <p align="center">
@@ -115,6 +116,27 @@ for it.
   app's menu switches to someone else's code.
 - The game's Settings → Timers page shows **What your phone sees**, so you can check
   both match.
+
+---
+
+## Trade
+
+A **Trade** tab between Shop and Lookup, for your Steam friends who have Melvor Mods too.
+
+- **Gift:** pick items or gold from your bank and send them. If your friend is offline,
+  the gift waits for them. They accept it, or decline it and it comes back to you.
+- **Ask for items:** ask a friend for something, with a note. They can give it, give
+  less, offer a trade instead, or say no.
+- **Trade:** while you're both in the game, each of you puts in what you're offering.
+  When you've both accepted, you both see exactly what you give and get, and accept once
+  more.
+
+Nothing can be lost or doubled, even if the game closes halfway. Each change is saved in
+your game before it's sent, and anything unfinished is finished the next time you play.
+A big gift, like a tenth of your gold, asks "Sure?" first. Gifted items don't count as
+"found", so they don't skip anyone's unlocks.
+
+Trade signs in with your Steam account through the game, so there's nothing to set up.
 
 ---
 
