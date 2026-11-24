@@ -2,15 +2,16 @@
   <img src="images/tabs.png" width="640" alt="Melvor Idle 2's top bar with the Lookup tab between Shop and Combat">
 </p>
 
-<h1 align="center">Melvor Lookup</h1>
+<h1 align="center">Melvor Mods</h1>
 
 <p align="center">
-  <b>Find any item in Melvor Idle 2, and every way to get it.</b><br>
-  A Lookup tab built into the game's own interface, for Linux.
+  <b>Two mods for Melvor Idle 2 on Linux, in one installer.</b><br>
+  <b>Lookup</b> finds any item and every way to get it.
+  <b>Timers</b> puts your farms, animals and bonfire on your phone.
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/SikuTheNomad/melvor-lookup?label=download&style=for-the-badge&color=2e7d32" alt="Download the latest version"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/SikuTheNomad/melvor-mods?label=download&style=for-the-badge&color=2e7d32" alt="Download the latest version"></a>
 </p>
 
 <p align="center">
@@ -19,7 +20,7 @@
 
 ---
 
-## What it does
+## Lookup
 
 Type what you're after, like `mining gear`, `food`, `bronze` or `potion`, or narrow it down
 with the filters. Then hover an item for the game's own tooltip, or click it to see
@@ -69,26 +70,72 @@ icons.
 
 ---
 
+## Timers
+
+Your Melvor timers on your Android phone, styled like the game: what you're training
+with its progress and level-ups, your farming plots, ranch animals and bonfire, and a
+notification the moment something is ready. It keeps going after you close the game and
+turn off your PC, the same way the game's offline progress does.
+
+<p align="center">
+  <img src="images/timers-app.jpg" width="360" alt="The Melvor Timers app: Mining at level 66 with XP per hour and rock health, then Farming with wine, the mill and a growing lettuce">
+</p>
+
+- **Training:** the current action ticking along, XP and time to the next level, and
+  the skill's own page info (astrology nodes, rock health, materials left, and so on).
+- **Farming:** each plot growing or ready, with water, compost and automation.
+- **Ranching:** each animal under its land, its next stage, petting and end of life.
+- **Firemaking:** when the bonfire burns out.
+- **Offline progress:** how long the game keeps catching up, and a warning before it stops.
+
+### Set it up
+
+You need an **Android** phone (there's no iPhone app).
+
+1. **Install the mods** as above. Timers comes with them.
+2. **In Melvor,** open **Settings** and choose **Timers**. You'll see a QR code.
+3. **No app yet?** Scan the code with your phone's camera and open the link, then tap
+   **Download the app** and open the file. Android asks to allow your browser to install
+   apps once: the app isn't on the Play Store. Google may offer to scan it first; that's
+   fine.
+4. **Open Melvor Timers,** tap **Scan QR code**, and point it at the code in the game.
+   When it says **Linked to your game**, you're done. Allow notifications when it asks.
+
+The app updates itself too. The first time, Android asks you once to **Allow updates**
+for it.
+
+### Good to know
+
+- **Keep your code to yourself.** Anyone who scans it can see your timers. Nothing
+  else: not your save, and not your account.
+- To link another phone, scan the same code with it. **Link a different game** in the
+  app's menu switches to someone else's code.
+- The game's Settings → Timers page shows **What your phone sees**, so you can check
+  both match.
+
+---
+
 ## Install
 
 You need **Melvor Idle 2 from Steam, on Linux**. The Steam from your distribution's
 packages is fine; the Flatpak version of Steam isn't supported.
 
-1. **Download** `Install.Melvor.Lookup.zip` from the
+1. **Download** `Install.Melvor.Mods.zip` from the
    [latest release](../../releases/latest). It's under **Assets**.
 2. **Extract it.** Right-click the zip in your file manager and choose
    **Extract Here** (or **Extract**).
-3. **Double-click `Install Melvor Lookup`.** If your file manager asks whether to run
+3. **Double-click `Install Melvor Mods`.** If your file manager asks whether to run
    it or open it, choose **Run**. A progress window shows each step.
    - **Melvor is open?** It offers **Restart now**: the game saves, closes, and starts
-     again with the mod. Or choose **Continue**, and the tab appears the next time you
+     again with the mods. Or choose **Continue**, and they appear the next time you
      start the game.
    - **It asks to restart Steam?** Click **Restart Steam**. Steam only takes the new
      launch option when it restarts. This only happens on some setups.
-4. **Done.** Click **Start game**, and the **Lookup** tab is in the game's top bar,
-   between **Shop** and **Combat**.
+4. **Done.** Click **Start game**. The **Lookup** tab is in the game's top bar,
+   between **Shop** and **Combat**, and **Timers** is in the game's **Settings**.
 
-From then on it keeps itself up to date.
+From then on they keep themselves up to date. Already had Melvor Lookup installed? It
+updates itself to Melvor Mods, Timers included: nothing to do.
 
 ---
 
@@ -112,15 +159,15 @@ version.
 
 ## Reinstall or uninstall
 
-Double-click `Install Melvor Lookup` again:
+Double-click `Install Melvor Mods` again:
 
 <p align="center">
   <img src="images/installer-menu.png" width="480" alt="The installer's menu: Reinstall, Uninstall, Start game, Close">
 </p>
 
 - **Reinstall** (or **Update**, with a newer installer) puts a fresh copy in place.
-- **Uninstall** removes the mod and puts its files in the trash. Your game and save
-  aren't touched.
+- **Uninstall** removes both mods and puts their files in the trash. Your game and
+  save aren't touched.
 
 ---
 
@@ -156,11 +203,15 @@ happened.
 <details>
 <summary><b>How it works</b></summary>
 
-The installer puts the mod's files in `~/.local/share/melvor-lookup/mod/` and adds the
-mod's loader to Melvor Idle 2's launch options in Steam, keeping any options you
-already had. Each time the game starts, the mod reads the item data from your own copy
-of the game, so it ships none of the game's files and keeps up with game updates.
-Updates are signed, and the mod only installs ones signed by its author.
+The installer puts the mods' files in `~/.local/share/melvor-lookup/mod/` and adds
+their loader to Melvor Idle 2's launch options in Steam, keeping any options you
+already had. Each time the game starts, the mods read what they need from your own
+copy of the game, so they ship none of the game's files and keep up with game updates.
+Updates are signed, and the mods only install ones signed by their author.
+
+Timers sends your timers to a small server, and your phone fetches them from there.
+The server keeps only your latest timers and the game's icons, under your private code,
+and tells your phone when something changes.
 </details>
 
 ---
