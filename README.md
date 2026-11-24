@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/SikuTheNomad/melvor-mods?label=download&style=for-the-badge&color=2e7d32" alt="Download the latest version"></a>
+  <a href="https://melvor.sikuthenomad.com/timers/app/melvor-timers.apk"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmelvor.sikuthenomad.com%2Ftimers%2Fapp%2Flatest.json&query=%24.versionName&prefix=v&label=android%20app&style=for-the-badge&color=2e7d32" alt="Download the Android app"></a>
 </p>
 
 <p align="center">
@@ -94,10 +95,11 @@ You need an **Android** phone (there's no iPhone app).
 
 1. **Install the mods** as above. Timers comes with them.
 2. **In Melvor,** open **Settings** and choose **Timers**. You'll see a QR code.
-3. **No app yet?** Scan the code with your phone's camera and open the link, then tap
-   **Download the app** and open the file. Android asks to allow your browser to install
-   apps once: the app isn't on the Play Store. Google may offer to scan it first; that's
-   fine.
+3. **No app yet?** On your phone, download
+   [**melvor-timers.apk**](https://melvor.sikuthenomad.com/timers/app/melvor-timers.apk)
+   (or scan the code with your camera and tap **Download the app**), then open the file.
+   Android asks to allow your browser to install apps once: the app isn't on the Play
+   Store. Google may offer to scan it first; that's fine.
 4. **Open Melvor Timers,** tap **Scan QR code**, and point it at the code in the game.
    When it says **Linked to your game**, you're done. Allow notifications when it asks.
 
