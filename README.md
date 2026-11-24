@@ -7,7 +7,7 @@
 <p align="center">
   <b>Mods for Melvor Idle 2 on Linux, in one installer.</b><br>
   <b>Lookup</b> finds any item and every way to get it.
-  <b>Timers</b> puts your farms, animals and bonfire on your phone.
+  <b>Timers</b> puts your skills, farms and animals on your phone.
   <b>Hide Version</b> hides the version number at the top of the screen.
   <b>Trade</b> lets you gift, ask for and trade items with your Steam friends.
 </p>
@@ -75,21 +75,28 @@ icons.
 
 ## Timers
 
-Your Melvor timers on your Android phone, styled like the game: what you're training
-with its progress and level-ups, your farming plots, ranch animals and bonfire, and a
-notification the moment something is ready. It keeps going after you close the game and
-turn off your PC, the same way the game's offline progress does.
+Your Melvor timers on your Android phone, styled like the game: what you're training,
+your farming plots and your ranch, and a notification the moment something is ready. It
+shows what the game's pages show, in the game's words. It keeps going after you close
+the game and turn off your PC, the same way the game's offline progress does.
 
 <p align="center">
-  <img src="images/timers-app.jpg" width="360" alt="The Melvor Timers app: Mining at level 66 with XP per hour and rock health, then Farming with wine, the mill and a growing lettuce">
+  <img src="images/timers-app.jpg" width="360" alt="The Melvor Timers app in combat: a Golbin with both HP and attack bars, your food, item rates and both sides' Offensive Stats">
 </p>
 
-- **Training:** the current action ticking along, XP and time to the next level, and
-  the skill's own page info (astrology nodes, rock health, materials left, and so on).
-- **Farming:** each plot growing or ready, with water, compost and automation.
-- **Ranching:** each animal under its land, its next stage, petting and end of life.
-- **Firemaking:** when the bonfire burns out.
+- **Training:** the skill's picture, animated like in the game (the rock, the tree, the
+  item being made, the fishing spot, the enemy), the action bar, XP and time to the next
+  level, item rates, and the skill's own page info.
+- **Combat:** while the app is open, every hit, miss and respawn as it happens, both HP
+  and attack bars, your food, and your Offensive Stats beside the enemy's.
+- **Farming:** each plot growing or ready, with its compost, water and what's automated,
+  your wine use and the mill.
+- **Ranching:** the land overview, how many enclosures need repair, and each animal:
+  healthy or sick, whether it wants pets, and when it dies.
 - **Offline progress:** how long the game keeps catching up, and a warning before it stops.
+
+While the app is open it updates the moment the game does. Tap the menu for a list of
+the skills on screen, to jump to one.
 
 ### Set it up
 
@@ -105,8 +112,9 @@ You need an **Android** phone (there's no iPhone app).
 4. **Open Melvor Timers,** tap **Scan QR code**, and point it at the code in the game.
    When it says **Linked to your game**, you're done. Allow notifications when it asks.
 
-The app updates itself too. The first time, Android asks you once to **Allow updates**
-for it.
+When there's a new version, the app shows **Update ready** when you open it. Tap
+**Install now** (the first time, Android asks you once to allow it), and it shows
+what's new once it's updated.
 
 ### Good to know
 
@@ -242,8 +250,9 @@ copy of the game, so they ship none of the game's files and keep up with game up
 Updates are signed, and the mods only install ones signed by their author.
 
 Timers sends your timers to a small server, and your phone fetches them from there.
-The server keeps only your latest timers and the game's icons, under your private code,
-and tells your phone when something changes.
+The server keeps only your latest timers and the game's pictures, under your private
+code, and tells your phone when something changes. While the app is open, the game also
+sends moments like combat hits through it; those go straight to the app and aren't kept.
 </details>
 
 ---
