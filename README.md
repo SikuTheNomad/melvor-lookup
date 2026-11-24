@@ -181,8 +181,9 @@ updates itself to Melvor Mods, Timers included: nothing to do.
 
 ## Updates
 
-New versions download by themselves while you play. When one is ready, the button at
-the top right of the Lookup page turns green:
+New versions download by themselves while you play. When one is ready, a banner like
+the level-up one says so, with its sound, and a green dot sits on the **Lookup** tab
+until you open it. There, the button at the top right turns green:
 
 <p align="center">
   <img src="images/up-to-date.png" height="64" alt="Up to date">
