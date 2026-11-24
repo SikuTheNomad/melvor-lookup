@@ -5,9 +5,10 @@
 <h1 align="center">Melvor Mods</h1>
 
 <p align="center">
-  <b>Two mods for Melvor Idle 2 on Linux, in one installer.</b><br>
+  <b>Mods for Melvor Idle 2 on Linux, in one installer.</b><br>
   <b>Lookup</b> finds any item and every way to get it.
   <b>Timers</b> puts your farms, animals and bonfire on your phone.
+  <b>Hide Version</b> hides the version number at the top of the screen.
 </p>
 
 <p align="center">
@@ -117,6 +118,13 @@ for it.
 
 ---
 
+## Hide Version
+
+Hides the game's version number (`Melvor Idle 2: v0.11.6-alpha.1`) from the top of the
+screen. That's all it does.
+
+---
+
 ## Install
 
 You need **Melvor Idle 2 from Steam, on Linux**. The Steam from your distribution's
@@ -168,7 +176,7 @@ Double-click `Install Melvor Mods` again:
 </p>
 
 - **Reinstall** (or **Update**, with a newer installer) puts a fresh copy in place.
-- **Uninstall** removes both mods and puts their files in the trash. Your game and
+- **Uninstall** removes the mods and puts their files in the trash. Your game and
   save aren't touched.
 
 ---
