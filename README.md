@@ -94,6 +94,10 @@ the game and turn off your PC, the same way the game's offline progress does.
 - **Ranching:** the land overview, how many enclosures need repair, and each animal:
   healthy or sick, whether it wants pets, and when it dies.
 - **Offline progress:** how long the game keeps catching up, and a warning before it stops.
+- **Notifications:** each timer once, the moment it's done. While you play, the moment you
+  die, run out of food, finish a Slayer task, level up, fill your bank or run out of
+  materials. While the game is closed, when you've *probably* levelled up or run out of
+  something, worked out from your rates.
 
 While the app is open it updates the moment the game does. Tap the menu for a list of
 the skills on screen, to jump to one.
@@ -139,9 +143,11 @@ A **Trade** tab between Shop and Lookup, for your Steam friends who have Melvor 
   When you've both accepted, you both see exactly what you give and get, and accept once
   more.
 
-Each friend's page shows what's pending and a history of everything you've traded: the
-items, when, and how it ended. When picking items, Lookup's filters (type, where it comes
-from, skill) narrow your bank down.
+Your friends are listed with Gift, Ask and Trade buttons, and what each is doing in the game
+(the skill, the task and its level, as Steam shows it; the last one, faded, while they're
+offline). Beside them: what's pending, and a history of everything you've traded: the items,
+when, and how it ended. When picking items, Lookup's filters (type, where it comes from,
+skill) narrow your bank down.
 
 Nothing can be lost or doubled, even if the game closes halfway. Each change is saved in
 your game before it's sent, and anything unfinished is finished the next time you play.
