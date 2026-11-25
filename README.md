@@ -5,7 +5,7 @@
 <h1 align="center">Melvor Mods</h1>
 
 <p align="center">
-  <b>Mods for Melvor Idle 2 on Linux, in one installer.</b><br>
+  <b>Mods for Melvor Idle 2 on Windows and Linux, in one installer.</b><br>
   <b>Lookup</b> finds any item and every way to get it.
   <b>Timers</b> puts your skills, farms and animals on your phone.
   <b>Hide Version</b> hides the version number at the top of the screen.
@@ -171,23 +171,38 @@ screen. That's all it does.
 
 ## Install
 
-You need **Melvor Idle 2 from Steam, on Linux**. The Steam from your distribution's
-packages is fine; the Flatpak version of Steam isn't supported.
+You need **Melvor Idle 2 from Steam**, on Windows or Linux.
 
-1. **Download** the installer: [**melvor.sikuthenomad.com/download**](https://melvor.sikuthenomad.com/download)
-   always gives you the newest one (`melvor-mods-1.3.9-linux.zip`, say). It's also under
-   **Assets** in the [latest release](../../releases/latest).
-2. **Extract it.** Right-click the zip in your file manager and choose
+**Download** the installer: [**melvor.sikuthenomad.com**](https://melvor.sikuthenomad.com) gives you
+the newest one for your system. It's also under **Assets** in the [latest release](../../releases/latest).
+
+### Windows
+
+1. **Double-click** `melvor-mods-X.Y.Z-windows.exe`.
+2. **Windows says it protected your PC?** Click **More info**, then **Run anyway**. The
+   installer isn't signed (a certificate costs hundreds a year), so Windows asks the first
+   time. Updates never ask.
+   - **Melvor is open?** The installer offers **Close and install**: the game saves,
+     closes, and starts again with the mods.
+3. **Done.** Click **Start game**. **Trade** and **Lookup** are in the game's top bar,
+   after **Shop**, and **Timers** is in the game's **Settings**.
+
+### Linux
+
+The Steam from your distribution's packages works. Flatpak and Snap Steam should too (the
+installer handles them), but they haven't been tested with the game yet.
+
+1. **Extract** `melvor-mods-X.Y.Z-linux.zip`: right-click it in your file manager and choose
    **Extract Here** (or **Extract**).
-3. **Double-click `Install Melvor Mods`.** If your file manager asks whether to run
+2. **Double-click `Install Melvor Mods`.** If your file manager asks whether to run
    it or open it, choose **Run**. A progress window shows each step.
    - **Melvor is open?** It offers **Restart now**: the game saves, closes, and starts
      again with the mods. Or choose **Continue**, and they appear the next time you
      start the game.
    - **It asks to restart Steam?** Click **Restart Steam**. Steam only takes the new
      launch option when it restarts. This only happens on some setups.
-4. **Done.** Click **Start game**. The **Lookup** tab is in the game's top bar,
-   between **Shop** and **Combat**, and **Timers** is in the game's **Settings**.
+3. **Done.** Click **Start game**. **Trade** and **Lookup** are in the game's top bar,
+   after **Shop**, and **Timers** is in the game's **Settings**.
 
 From then on they keep themselves up to date. Already had Melvor Lookup installed? It
 updates itself to Melvor Mods, Timers included: nothing to do.
@@ -215,15 +230,16 @@ version.
 
 ## Reinstall or uninstall
 
-Double-click `Install Melvor Mods` again:
+Run the installer again:
 
 <p align="center">
   <img src="images/installer-menu.png" width="480" alt="The installer's menu: Reinstall, Uninstall, Start game, Close">
 </p>
 
 - **Reinstall** (or **Update**, with a newer installer) puts a fresh copy in place.
-- **Uninstall** removes the mods and puts their files in the trash. Your game and
-  save aren't touched.
+- **Uninstall** asks you to confirm, then removes the mods and all their files, settings
+  included. If the game is open, it saves, closes, and starts again without them. Your
+  game and save aren't touched.
 
 ---
 
@@ -233,10 +249,12 @@ Double-click `Install Melvor Mods` again:
 <summary><b>The Lookup tab doesn't show up</b></summary>
 
 - Restart the game once: the tab appears when you load your character.
-- Check the launch option is there. In Steam, right-click **Melvor Idle 2**, then
+- Run the installer and choose **Reinstall**.
+- On Linux, check the launch option is there. In Steam, right-click **Melvor Idle 2**, then
   **Properties**, then **General**, then **Launch Options**. It should start with
-  `LD_PRELOAD=` and mention `melvor-mods`. If it doesn't, run the installer and
-  choose **Reinstall**.
+  `LD_PRELOAD=` and mention `melvor-mods`.
+- On Windows, your antivirus may have removed `avrt.dll` from the game's folder: the
+  mods' loader. Allow it, then reinstall.
 - Right after a game update, the tab may stay away until a fixed version arrives. The
   game itself keeps working normally.
 </details>
@@ -252,16 +270,19 @@ Saving** unless you mean to lose your progress since the last save.
 <details>
 <summary><b>Something else is wrong</b></summary>
 
-The mod keeps a log at `~/.local/share/melvor-mods/log.txt`. Send it along with what
+The mod keeps a log at `%AppData%\melvor-mods\log.txt` on Windows, and
+`~/.local/share/melvor-mods/log.txt` on Linux. Send it along with what
 happened.
 </details>
 
 <details>
 <summary><b>How it works</b></summary>
 
-The installer puts the mods' files in `~/.local/share/melvor-mods/mod/` and adds
-their loader to Melvor Idle 2's launch options in Steam, keeping any options you
-already had. Each time the game starts, the mods read what they need from your own
+The installer puts the mods' files in a folder of their own: `%AppData%\melvor-mods`
+on Windows, `~/.local/share/melvor-mods` on Linux. Then it hooks up their loader. On
+Windows, the loader goes in the game's folder as `avrt.dll`, which the game loads at start;
+it passes every call on to Windows' own `avrt.dll`. On Linux, it goes in Melvor Idle 2's
+launch options in Steam, keeping any options you already had. Each time the game starts, the mods read what they need from your own
 copy of the game, so they ship none of the game's files and keep up with game updates.
 Updates are signed, and the mods only install ones signed by their author.
 
