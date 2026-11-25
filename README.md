@@ -164,8 +164,9 @@ screen. That's all it does.
 You need **Melvor Idle 2 from Steam, on Linux**. The Steam from your distribution's
 packages is fine; the Flatpak version of Steam isn't supported.
 
-1. **Download** `Install.Melvor.Mods.zip` from the
-   [latest release](../../releases/latest). It's under **Assets**.
+1. **Download** the installer: [**melvor.sikuthenomad.com/download**](https://melvor.sikuthenomad.com/download)
+   always gives you the newest one (`Install.Melvor.Mods.1.3.9.zip`, say). It's also under
+   **Assets** in the [latest release](../../releases/latest).
 2. **Extract it.** Right-click the zip in your file manager and choose
    **Extract Here** (or **Extract**).
 3. **Double-click `Install Melvor Mods`.** If your file manager asks whether to run
