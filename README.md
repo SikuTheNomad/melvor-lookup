@@ -224,7 +224,7 @@ Double-click `Install Melvor Mods` again:
 - Restart the game once: the tab appears when you load your character.
 - Check the launch option is there. In Steam, right-click **Melvor Idle 2**, then
   **Properties**, then **General**, then **Launch Options**. It should start with
-  `LD_PRELOAD=` and mention `melvor-lookup`. If it doesn't, run the installer and
+  `LD_PRELOAD=` and mention `melvor-mods`. If it doesn't, run the installer and
   choose **Reinstall**.
 - Right after a game update, the tab may stay away until a fixed version arrives. The
   game itself keeps working normally.
@@ -241,14 +241,14 @@ Saving** unless you mean to lose your progress since the last save.
 <details>
 <summary><b>Something else is wrong</b></summary>
 
-The mod keeps a log at `~/.local/share/melvor-lookup/log.txt`. Send it along with what
+The mod keeps a log at `~/.local/share/melvor-mods/log.txt`. Send it along with what
 happened.
 </details>
 
 <details>
 <summary><b>How it works</b></summary>
 
-The installer puts the mods' files in `~/.local/share/melvor-lookup/mod/` and adds
+The installer puts the mods' files in `~/.local/share/melvor-mods/mod/` and adds
 their loader to Melvor Idle 2's launch options in Steam, keeping any options you
 already had. Each time the game starts, the mods read what they need from your own
 copy of the game, so they ship none of the game's files and keep up with game updates.
