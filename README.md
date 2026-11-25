@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/SikuTheNomad/melvor-mods?label=download&style=for-the-badge&color=2e7d32" alt="Download the latest version"></a>
-  <a href="https://melvor.sikuthenomad.com/timers/app/melvor-timers.apk"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmelvor.sikuthenomad.com%2Ftimers%2Fapp%2Flatest.json&query=%24.versionName&prefix=v&label=android%20app&style=for-the-badge&color=2e7d32" alt="Download the Android app"></a>
+  <a href="https://melvor.sikuthenomad.com/timers/app/melvor-mods.apk"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmelvor.sikuthenomad.com%2Ftimers%2Fapp%2Fmelvor-mods.json&query=%24.versionName&prefix=v&label=android%20app&style=for-the-badge&color=2e7d32" alt="Download the Android app"></a>
 </p>
 
 <p align="center">
@@ -75,13 +75,13 @@ icons.
 
 ## Timers
 
-Your Melvor timers on your Android phone, styled like the game: what you're training,
+Your Melvor timers on your Android phone, in the **Melvor Mods** app, styled like the game: what you're training,
 your farming plots and your ranch, and a notification the moment something is ready. It
 shows what the game's pages show, in the game's words. It keeps going after you close
 the game and turn off your PC, the same way the game's offline progress does.
 
 <p align="center">
-  <img src="images/timers-app.jpg" width="360" alt="The Melvor Timers app in combat: a Golbin with both HP and attack bars, your food, item rates and both sides' Offensive Stats">
+  <img src="images/timers-app.jpg" width="360" alt="The Melvor Mods app in combat: a Golbin with both HP and attack bars, your food, item rates and both sides' Offensive Stats">
 </p>
 
 - **Training:** the skill's picture, animated like in the game (the rock, the tree, the
@@ -109,11 +109,11 @@ You need an **Android** phone (there's no iPhone app).
 1. **Install the mods** as above. Timers comes with them.
 2. **In Melvor,** open **Settings** and choose **Timers**. You'll see a QR code.
 3. **No app yet?** On your phone, download
-   [**melvor-timers.apk**](https://melvor.sikuthenomad.com/timers/app/melvor-timers.apk)
+   [**melvor-mods.apk**](https://melvor.sikuthenomad.com/timers/app/melvor-mods.apk)
    (or scan the code with your camera and tap **Download the app**), then open the file.
    Android asks to allow your browser to install apps once: the app isn't on the Play
    Store. Google may offer to scan it first; that's fine.
-4. **Open Melvor Timers,** tap **Scan QR code**, and point it at the code in the game.
+4. **Open Melvor Mods,** tap **Scan QR code**, and point it at the code in the game.
    When it says **Linked to your game**, you're done. Allow notifications when it asks.
 
 When there's a new version, the app shows **Update ready** when you open it. Tap
