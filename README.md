@@ -261,6 +261,8 @@ code, and tells your phone when something changes. While the app is open, the ga
 sends moments like combat hits through it; those go straight to the app and aren't kept.
 </details>
 
+Melvor Mods is closed source for now. The source isn't published; the installer and updates come from the releases page.
+
 ---
 
 <p align="center">
