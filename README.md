@@ -139,6 +139,10 @@ A **Trade** tab between Shop and Lookup, for your Steam friends who have Melvor 
   When you've both accepted, you both see exactly what you give and get, and accept once
   more.
 
+Each friend's page shows what's pending and a history of everything you've traded: the
+items, when, and how it ended. When picking items, Lookup's filters (type, where it comes
+from, skill) narrow your bank down.
+
 Nothing can be lost or doubled, even if the game closes halfway. Each change is saved in
 your game before it's sent, and anything unfinished is finished the next time you play.
 A big gift, like a tenth of your gold, asks "Sure?" first. Gifted items don't count as
