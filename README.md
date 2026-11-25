@@ -149,6 +149,10 @@ offline). Beside them: what's pending, and a history of everything you've traded
 when, and how it ended. When picking items, Lookup's filters (type, where it comes from,
 skill) narrow your bank down.
 
+**Chat:** each friend has a **Chat** button: a conversation in the game, with your gifts and
+trades with them in among the messages. A new message shows the game's notification card, and
+"1 MSG" under the Trade tab; while your game is closed, it reaches your phone.
+
 Nothing can be lost or doubled, even if the game closes halfway. Each change is saved in
 your game before it's sent, and anything unfinished is finished the next time you play.
 A big gift, like a tenth of your gold, asks "Sure?" first. Gifted items don't count as
@@ -266,8 +270,6 @@ The server keeps only your latest timers and the game's pictures, under your pri
 code, and tells your phone when something changes. While the app is open, the game also
 sends moments like combat hits through it; those go straight to the app and aren't kept.
 </details>
-
-Melvor Mods is closed source for now. The source isn't published; the installer and updates come from the releases page.
 
 ---
 
